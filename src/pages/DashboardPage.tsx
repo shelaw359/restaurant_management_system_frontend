@@ -40,8 +40,6 @@ const DashboardPage = () => {
     },
   ]);
 
-  const [recentActivity] = useState<any[]>([]);
-
   useEffect(() => {
     // TODO: Replace with real API calls
     // const fetchDashboardStats = async () => {
